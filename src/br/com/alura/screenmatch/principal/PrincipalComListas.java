@@ -7,7 +7,7 @@ import br.com.alura.screenmatch.modelos.Titulo;
 import java.util.*;
 
 public class PrincipalComListas {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Filme meuFilme = new Filme("Hairspray", 2007);
         meuFilme.avalia(9);
         Filme outroFilme = new Filme("Avatar", 2023);

@@ -15,7 +15,6 @@ import java.util.Scanner;
 
 public class PrincipalComBusca {
     static void main(String[] args) throws IOException, InterruptedException {
-    public static void main(String[] args) throws IOException, InterruptedException {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o filme que quer buscar:");
         var busca = scanner.nextLine();
@@ -42,7 +41,6 @@ public class PrincipalComBusca {
         System.out.println(meuTitulo);
 
 
-        System.out.println(response.body());
 
     }
 }
