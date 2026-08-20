@@ -14,7 +14,7 @@ import java.net.http.HttpResponse;
 import java.util.Scanner;
 
 public class PrincipalComBusca {
-    public static void main(String[] args) throws IOException, InterruptedException {
+    static void main(String[] args) throws IOException, InterruptedException {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o filme que quer buscar:");
         var busca = scanner.nextLine();
